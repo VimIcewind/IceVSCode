@@ -1,0 +1,66 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.visible": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.code-workspace": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "vim.hlsearch": true,
+    "vim.ignorecase": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "h"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": ":nohl"
+                }
+            ]
+        },
+        {
+            "before": [
+                "Z",
+                "Z"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                },
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "Z",
+                "Q"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.revert",
+                    "args": []
+                },
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        }
+    ]
+}

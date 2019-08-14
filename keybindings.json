@@ -1,0 +1,37 @@
+[
+    {
+        "mac": "alt+i",
+        "win": "alt+i",
+        "linux": "alt+i",
+        "key": "alt+i",
+        "command": "toggleVim"
+    },
+    {
+        "mac": "alt+m",
+        "win": "alt+m",
+        "linux": "alt+m",
+        "key": "alt+m",
+        "command": "editor.action.toggleMinimap"
+    },
+    {
+        "mac": "alt+a",
+        "win": "alt+a",
+        "linux": "alt+a",
+        "key": "alt+a",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "mac": "alt+s",
+        "win": "alt+s",
+        "linux": "alt+s",
+        "key": "alt+s",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "mac": "cmd+k cmd+b",
+        "win": "ctrl+k ctrl+b",
+        "linux": "ctrl+k ctrl+b",
+        "key": "ctrl+k ctrl+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    }
+]
