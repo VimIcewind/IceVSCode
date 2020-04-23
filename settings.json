@@ -9,6 +9,7 @@
         "**/.project": true,
         "**/.settings": true
     },
+    "files.autoGuessEncoding": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.minimap.enabled": false,
